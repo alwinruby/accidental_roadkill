@@ -1,0 +1,19 @@
+{
+  "name": "accidental_roadkill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alwinruby/accidental_roadkill.git"
+  },
+  "author": "Alwin Solanky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alwinruby/accidental_roadkill/issues"
+  },
+  "homepage": "https://github.com/alwinruby/accidental_roadkill#readme"
+}
