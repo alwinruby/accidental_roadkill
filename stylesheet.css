@@ -1,20 +1,30 @@
-body {
-  background-color: lightblue;
+
+@font-face {
+  font-family: Vinila;
+  src: url("https://jsbin-user-assets.s3.amazonaws.com/simevidas/vinila.woff2") format("woff2");
+  font-style: oblique 0deg 20deg; /* 20deg is required for Safari */ */
+  font-weight: 1 1000;
+} 
+
+.fvs {
+  font-variation-settings: "slnt" 10;
 }
 
-p
-{
-  font-family: cursive;
-  font-size: large;
-  color: #0000ff;
-  background-color: #ffff00;
+.fs {
+  font-style: oblique;
 }
-h1
-{
-  font-family: "Times New Roman",Georgia,serif;
-  font-size: 40px;
-  text-align: center;
-  text-decoration: underline;
-  color: #ff0000;
-  background-color: #00ffff;
+
+/* Other styles */
+
+body {
+  font-family: Vinila;
+  font-size: 1.3rem;
+}
+
+span {
+  color: white;
+  background: black;
+  display: inline-block;
+  padding: .05em .25em 0;
+  font-size: 2rem;
 }
