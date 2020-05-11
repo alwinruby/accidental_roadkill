@@ -4,7 +4,7 @@
   src: url("https://jsbin-user-assets.s3.amazonaws.com/simevidas/vinila.woff2") format("woff2");
   font-style: oblique 0deg 20deg; /* 20deg is required for Safari */ */
   font-weight: 1 1000;
-} 
+}
 
 .fvs {
   font-variation-settings: "slnt" 10;
@@ -14,16 +14,84 @@
   font-style: oblique;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  float: left;
+}
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+  width: 800px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.navigation-bar {
+  background-color: #352d2f;
+  height: 70px;
+  width: 100%;
+  text-align:center;
+}
+.navigation-bar img{
+float:left;
+}
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: black;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+#menu {
+  float: right;
+}
+
 /* Other styles */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 
 body {
   font-family: Vinila;
   font-size: 1.3rem;
+  background-color:#4e5a65;
+}
+
+div {
+  width: 340px;
+  background-color: powderblue;
 }
 
 span {
-  color: white;
-  background: black;
+  color: black;
+  /* background: black; */
   display: inline-block;
   padding: .05em .25em 0;
   font-size: 2rem;
