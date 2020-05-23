@@ -85,12 +85,12 @@ float:left;
 body {
   font-family: Vinila;
   font-size: 1.3rem;
-  background-color:#4e5a65;
+  background-color:#4e5a65; */
 }
 
 div {
-  width: 340px;
-  background-color: powderblue;
+  width: 320px;
+  /* background-color: powderblue; */
 }
 
 span {
