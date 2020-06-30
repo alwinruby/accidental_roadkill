@@ -37,3 +37,6 @@ Using BroswerSync
 ### Step 6: Stop BroswerSync
 
       crtl + c -> yes
+
+
+**NOTE on https://alwinruby.github.io/accidental_roadkill/index.html**
